@@ -27,7 +27,7 @@
     height: 150px;
     border-radius: 30px;
 }
-i{
+ .icon-container {
     color: blue;
     
 }
@@ -37,9 +37,8 @@ button{
     margin-top: 10px;
     padding: 5px;
     
-
-
 }
+
 nav{
     background-color: antiquewhite;
     display: flex;
@@ -62,12 +61,36 @@ nav .links a:hover {
     font-style: italic;
     transition: 0.25s ease-in;
 }
- nav .search-bar input {
-    border-radius:5px; 
-    
+ .search-bar input {
+    border-radius:5px;  
+   
  }
+ 
 section{
     display: flex;
 }
+
+.search-bar i{
+    color: blue;
+}
+
+.icon i{
+    color: blue;
+    height: 20px;
+    width: 10px;
+}
+
+button  i{
+    color: blue;
+    justify-content: space-around;
+}
  
- 
+.card .product-name{
+    color: ;
+    font-style: italic;
+}
+
+.card .product-price{
+    font-weight: bold;
+}
+
